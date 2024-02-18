@@ -44,7 +44,7 @@ align-items: center;
 
 .header-container .rectangle {
   width: 350px;
-  height: 150px;
+  height: 120px;
   background: #898991;
   display: flex;
   justify-content: center;
@@ -79,7 +79,6 @@ button.sign-1 {
 .boxes-container {
   display: flex;
   justify-content: center;
-    
 }
 
 .boxes-container .bx {
@@ -95,6 +94,7 @@ button.sign-1 {
 
 .boxes-container .box {
   width: 80px;
+  margin-left: 24px;
 }
 
 .boxes-container .text-1 {
