@@ -76,5 +76,9 @@ button.sign-1 {
   color: white;
 }
 
-
+.boxes-container {
+  display: flex;
+  justify-content: center;
+    
+}
 
