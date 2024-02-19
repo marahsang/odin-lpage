@@ -116,3 +116,11 @@ button.sign-1 {
   height: 200px;
   flex-direction: column;
 }
+
+.main p {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  font-size: large;
+  font-style: italic;
+}
