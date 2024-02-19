@@ -140,3 +140,14 @@ footer {
   width: 100%;
   height: 200px;
 }
+
+.rectangle-container .menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: royalblue;
+  width: 500px;
+  height: 100px;
+  color: #fff;
+  border-radius: 5px;
+}
