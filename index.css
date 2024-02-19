@@ -124,3 +124,11 @@ button.sign-1 {
   font-size: large;
   font-style: italic;
 }
+
+
+footer {
+  display: flex;
+  width: 600px;
+  align-self: flex-end;
+  font-weight: bold;
+}
