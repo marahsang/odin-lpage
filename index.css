@@ -1,22 +1,24 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
+
+  body {
+    font-family:roboto; 
+    color: #333;    
+  }
   
 nav .container {
-  background: #333344;
+  background: #1F2937;
   height: 40px;
   width: 100%;
   color: #fff;
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.container h3 {
-  font-size: x-large;
-  font-weight: bold;
 }
 
 ul {
@@ -29,13 +31,14 @@ ul {
 
 .container a {
   text-decoration: none;
-  color: #fff
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .header-container {
   height: 200px;
   width: 100%;
-  background: #333344;
+  background: #1F2937;
 display: flex;
 justify-content: center;
 gap: 150px;
@@ -55,8 +58,8 @@ align-items: center;
 .header-container .awesome-container {
   width: 350px;
   height: 150px;
-  color: #898991;
-  color: #fff;
+  color: #f9faf8;
+  font-weight: bolder;;
 }
 
 p {
@@ -86,7 +89,7 @@ button.sign-1 {
   width: 80px;
   height: 80px;
   border: 1px solid royalblue;
-  border-radius: 3px; 
+  border-radius: 5px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,7 +159,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #333344;
+  background: #1F2937;
   width: 100%;
   height: 50px;
   color: #fff;
