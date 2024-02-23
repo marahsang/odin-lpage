@@ -22,17 +22,10 @@
   align-items: center;
 }
 
-.container .alyn {
-  display: flex;
+.container .header-link, .aws-rec {
   width: 800px;
-  justify-content: space-between;
 }
 
- .header-container .aws-rect {
-  display: flex;
-  justify-content: space-between;
-width: 800px;
-}
 
 p.head {
   font-size: 18px;
@@ -149,7 +142,7 @@ button.sign-1 {
   flex-direction: column;
 }
 
-blockquote.para {
+blockquote {
   font-size:larger;
   font-style: italic;
   color: #1F2937;
