@@ -22,8 +22,9 @@
   align-items: center;
 }
 
-.container .header-link, .aws-rec {
+ .header-link, .aws-rect {
   width: 800px;
+  display: flex;
 }
 
 
