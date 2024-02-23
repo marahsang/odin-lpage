@@ -7,7 +7,7 @@
   }
 
   body {
-    font-family:roboto; 
+    font-family: Roboto, sans-serif;
     color: #333;
     font-size: 16px;    
   }
@@ -64,14 +64,7 @@ ul {
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 150;
 }
-
-.header-container .hero {
-  display: flex;
-gap: 150px;
-}
-
 
 .header-container .rectangle {
   width: 350px;
@@ -157,16 +150,16 @@ button.sign-1 {
 }
 
 blockquote.para {
-  font-size: large;
+  font-size:larger;
   font-style: italic;
   color: #1F2937;
-  width: 400px;
+  width: 450px;
 }
 
 .main p {
-  width: 400px;
   font-weight: bold;
   text-align: end;
+  width: 400px;
 }
 
 .rectangle-container {
